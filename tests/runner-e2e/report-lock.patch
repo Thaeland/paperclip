@@ -1,40 +1,12 @@
 diff --git a/pnpm-lock.yaml b/pnpm-lock.yaml
-index 97cbf7b..851e65a 100644
+index 851e65a..a95a512 100644
 --- a/pnpm-lock.yaml
 +++ b/pnpm-lock.yaml
-@@ -43,7 +43,7 @@ patchedDependencies:
-     hash: 6st5fzvttegjv64llnfegwwpca
-     path: patches/acpx@0.12.0.patch
-   acpx@0.13.1:
--    hash: ujlgpkxl4mvt34bejc3uxyvthq
-+    hash: 25xv27loodfejozcsygclyiyau
-     path: patches/acpx@0.13.1.patch
-   embedded-postgres@18.1.0-beta.16:
-     hash: 55uhvnotpqyiy37rn3pqpukhei
-@@ -523,7 +523,7 @@ importers:
-         version: 0.160.0
-       acpx:
-         specifier: 0.13.1
--        version: 0.13.1(patch_hash=ujlgpkxl4mvt34bejc3uxyvthq)
-+        version: 0.13.1(patch_hash=25xv27loodfejozcsygclyiyau)
-       ajv:
-         specifier: ^8.20.0
-         version: 8.20.0
-@@ -1021,7 +1021,7 @@ importers:
-         version: 8.18.0
-       acpx:
-         specifier: 0.13.1
--        version: 0.13.1(patch_hash=ujlgpkxl4mvt34bejc3uxyvthq)
-+        version: 0.13.1(patch_hash=25xv27loodfejozcsygclyiyau)
-       ai:
-         specifier: 7.0.130
-         version: 7.0.130(zod@4.6.7)
-@@ -13916,7 +13916,7 @@ snapshots:
-       - bare-buffer
-       - react-native-b4a
+@@ -4961,6 +4961,7 @@ packages:
+   '@sapphire/shapeshift@4.0.0':
+     resolution: {integrity: sha512-d9dUmWVA7MMiKobL3VpLF8P2aeanRTu6ypG2OIaEv/ZHH/SUQ2iHOVyi5wAPjQ+HmnMuL0whK9ez8I/raWbtIg==}
+     engines: {node: '>=v16'}
++    deprecated: Shapeshift was created when other validation libraries had significant limitations in performance and error reporting. Those advantages have diminished as libraries such as Zod have become faster and improved their error messages, while also gaining broader environment support, a larger community, and custom error printers.
  
--  acpx@0.13.1(patch_hash=ujlgpkxl4mvt34bejc3uxyvthq):
-+  acpx@0.13.1(patch_hash=25xv27loodfejozcsygclyiyau):
-     dependencies:
-       '@agentclientprotocol/sdk': 1.4.0(zod@4.6.7)
-       commander: 15.0.0
+   '@sapphire/snowflake@3.5.5':
+     resolution: {integrity: sha512-xzvBr1Q1c4lCe7i6sRnrofxeO1QTP/LKQ6A6qy0iB4x5yfiSfARMEQEghojzTNALDTcv8En04qYNIco9/K9eZQ==}
